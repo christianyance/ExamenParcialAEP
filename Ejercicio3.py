@@ -36,7 +36,7 @@ print("Cantidad de producto que superan el precio promedio:", contador)
 mas_caro = lista[0]
 
 for producto in lista:
-    if producto[1] > mas_caro:
+    if producto[1] > mas_caro[1]:
         mas_caro = producto
 print("El producto mas caro es:", mas_caro)
 
@@ -66,7 +66,7 @@ for p in lista:
         cantidades[pos] = cantidades[pos] + 1
 
 num_mas_alto = max(cantidades)
-pos_num_mas_alto = cantidades.index(num_mas:alto)
+pos_num_mas_alto = cantidades.index(num_mas_alto)
 categoria_con_mas_productos = categorias[pos_num_mas_alto]
 
 print("Categoria con mas productos:", categoria_con_mas_productos)
