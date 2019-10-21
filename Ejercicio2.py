@@ -2,7 +2,7 @@
 
 import random
 
-s = random.randint(1,10)
+s = random.randint(1,100)
 
 while True:
     n = int(input("Adivina el numero del sistema (1...10):"))
